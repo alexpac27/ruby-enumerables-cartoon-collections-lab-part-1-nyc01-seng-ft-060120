@@ -1,7 +1,7 @@
   dwarves = ["Dopey", "Grumpy", "Bashful"]
 
 def greet_characters(array)
-  array.each {|name| p "Hello #{name}"}
+  array.each {|name| p "Hello #{name}!"}
 end
 
 def list_dwarves(array)
